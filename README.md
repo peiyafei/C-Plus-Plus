@@ -73,3 +73,35 @@ int main()
 
 **示例：**
 
+```c++
+#include <iostream>
+using namespace std;
+
+/*
+	变量的定义：
+
+	数据类型 变量名 = 初始值；
+	
+*/
+
+int main()
+{
+	int a = 10;
+
+	cout << "a=" << a << endl;
+	system("pause");
+	return 0;
+}
+```
+
+### 1.4 常量
+
+**作用**：用于记录程序中不可更改的数据
+
+C++定义常量两种方式
+
+1. #define 宏常量：#define 常量名 常量值
+
+   通常在文件上方定义，表示一个常量
+
+2. 
